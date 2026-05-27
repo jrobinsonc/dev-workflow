@@ -1,6 +1,16 @@
-# jrdev
+# dev-agents
 
 Gemini agents and skills for orchestrating a multi-agent software development workflow.
+
+## Installation
+
+Clone this repo into your Gemini plugins directory:
+
+```sh
+git clone https://github.com/jrobinsonc/dev-agents ~/.gemini/config/plugins/dev-agents
+```
+
+Restart your IDE. The agents and skill will be available automatically.
 
 ---
 
@@ -8,7 +18,7 @@ Gemini agents and skills for orchestrating a multi-agent software development wo
 
 ### `architect-workflow`
 
-Runs a full pipeline: the Architect breaks down your task, the Developer and Document Writer work in parallel, and the QA Agent reviews the result.
+Runs a full pipeline: the Architect breaks down your task, the Developer and Document Writer work in parallel, and the QA Engineer reviews the result.
 
 **How to use it:**
 
