@@ -1,5 +1,5 @@
 ---
-name: architect-workflow
+name: dev-workflow
 description: Coordinates a multi-agent workflow from Architecture to QA.
 ---
 

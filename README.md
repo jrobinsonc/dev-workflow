@@ -1,4 +1,4 @@
-# dev-agents
+# dev-workflow
 
 Gemini agents and skills for orchestrating a multi-agent software development workflow.
 
@@ -7,7 +7,7 @@ Gemini agents and skills for orchestrating a multi-agent software development wo
 Clone this repo into your Gemini plugins directory:
 
 ```sh
-git clone https://github.com/jrobinsonc/dev-agents ~/.gemini/config/plugins/dev-agents
+git clone https://github.com/jrobinsonc/dev-workflow ~/.gemini/config/plugins/dev-workflow
 ```
 
 Restart your IDE. The agents and skill will be available automatically.
@@ -16,15 +16,15 @@ Restart your IDE. The agents and skill will be available automatically.
 
 ## Skills
 
-### `architect-workflow`
+### `dev-workflow`
 
 Runs a full pipeline: the Architect breaks down your task, the Developer and Document Writer work in parallel, and the QA Engineer reviews the result.
 
 **How to use it:**
 
-> "Use the architect-workflow skill to implement a CSV export feature for the orders module."
+> "Use the dev-workflow skill to implement a CSV export feature for the orders module."
 
-> "Trigger the architect-workflow to add JWT authentication to the API."
+> "Trigger the dev-workflow to add JWT authentication to the API."
 
 The assistant will automatically sequence the sub-agents — you just describe what you want built.
 
