@@ -57,3 +57,9 @@ Produces READMEs, API docs, diagrams, or tutorials.
 Reviews code for correctness, quality, test coverage, and edge cases.
 
 > "Have the qa-engineer review the changes in `src/auth/` against these requirements: ..."
+
+---
+
+## License
+
+[MIT](LICENSE)
